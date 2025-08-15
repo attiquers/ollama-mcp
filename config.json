@@ -1,0 +1,21 @@
+{
+  "globalShortcut": "Ctrl+Space",
+  "mcpServers": {
+ "sqlite": {
+      "command": "C:\\Users\\datas\\anaconda3\\Scripts\\uvx.exe",
+      "args": ["mcp-server-sqlite", "--db-path", "C:\\Users\\datas\\OneDrive\\Desktop\\Car_Database.db"]
+    },
+   "ddg-search": {
+            "command": "C:\\Users\\datas\\anaconda3\\Scripts\\uvx.exe",
+  "args": ["duckduckgo-mcp-server"]},
+      "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\datas\\OneDrive\\Desktop\\ollama-mcp"
+      ]
+    }
+  }
+  
+}
